@@ -26,4 +26,4 @@ Check out our FAQ at the [GitHub wiki](https://github.com/trailbot/client/wiki/F
 
 ### How will Trailbot be licensed?
 
-The Trailbot watcher, client and vault are eavailable under the [MIT License](https://github.com/trailbot/client/blob/master/LICENSE).
+The Trailbot watcher, client and vault are available under the [MIT License](https://github.com/trailbot/client/blob/master/LICENSE).
