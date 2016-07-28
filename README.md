@@ -1,4 +1,4 @@
-# [TrailBot](https://trailbot.io) Client <sup><sub><sup><sub>DEVELOPER PREVIEW</sub></sup></sub></sup>
+# [Trailbot](https://trailbot.io) Client <sup><sub><sup><sub>DEVELOPER PREVIEW</sub></sup></sub></sup>
 
 TrailBot tracks changes in your servers' files and logs and triggers smart policies.
 
