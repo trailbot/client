@@ -22,7 +22,7 @@ We'd love for you to help us build Trailbot. If you'd like to be a contributor, 
 
 # FAQ
 
-Check out our FAQ at the [GitHub wiki](https://github.com/trailbot/client/wiki/FAQ).
+Check out our [FAQ at the wiki](https://github.com/trailbot/client/wiki/FAQ).
 
 ### How will Trailbot be licensed?
 
