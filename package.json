@@ -9,7 +9,8 @@
     "simple-git": "^1.41.0"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "start-dev": "DEV=true electron . --ignore-certificate-errors"
   },
   "devDependencies": {
     "electron-prebuilt": "^1.2.2",
