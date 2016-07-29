@@ -1,4 +1,4 @@
-[<img style="width:100%;" src="https://raw.githubusercontent.com/trailbot/vault/master/dist/img/banner.jpg">](https://trailbot.io)
+[<img style="width:100%;" src="https://raw.githubusercontent.com/trailbot/vault/master/dist/img/banner.png">](https://trailbot.io)
 
 # [Trailbot](https://trailbot.io) Client <sup><sub><sup><sub>DEVELOPER PREVIEW</sub></sup></sub></sup>
 
