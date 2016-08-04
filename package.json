@@ -10,9 +10,11 @@
   },
   "scripts": {
     "start": "electron .",
-    "start-dev": "DEV=true electron . --ignore-certificate-errors"
+    "start-dev": "DEV=true electron . --ignore-certificate-errors",
+    "package": "electron-packager . --all"
   },
   "devDependencies": {
+    "electron-packager": "^7.4.0",
     "electron-prebuilt": "^1.2.2",
     "jquery": "^3.0.0"
   }
