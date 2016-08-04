@@ -168,11 +168,14 @@ Every time a watched file is modified, a new event appears in the file's event l
 
 ![Event](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/addition-event.png)
 
-The numbers under the date denote how many lines where added and/or deleted. "+1 -1" typically means that 1 line was edited or replaced.
+The numbers under the date tell you how many lines where added and/or deleted at the time.
 
-If you click on events, you can see the [diff](https://en.wikipedia.org/wiki/Diff_utility) between previous and current version of the watched file.
+Something like _"+3 -3"_ typically means that 3 lines were edited or replaced.
+
+When you click on one of the events on the list, you can see the [diff](https://en.wikipedia.org/wiki/Diff_utility) between previous and current version of the watched file.
 
 ![Diff](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/addition-diff.png)
 
+The _"EOF"_ at the bottom represents the end of the file.
 
 ### Adding Smart Policies
