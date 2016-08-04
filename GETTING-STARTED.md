@@ -61,8 +61,8 @@ The watcher has been designed and optimized for usage in `GNU/Linux`. It should 
 
 ### Before installing
 
-+ Again, remember to install Trailbot Client in your own computer and go through its setup wizard to generate its keypar and export it.
-+ Make sure that version `5.0.0` or greater of `nodejs` is installed in your computer. Recommended version is `6.0.0` or greater. Easiest way to install it is:
++ Remember to install Trailbot Client in your own computer and go through its setup wizard to generate its keypar and export it.
++ Make sure that version `5.0.0` or greater of `nodejs` is installed in your computer. Recommended version is `6.0.0` or greater. Easiest way to install `nodejs` is:
 ```
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs || sudo yum install nodejs npm || sudo pacman -S nodejs npm
@@ -81,4 +81,4 @@ npm run setup
 
 The setup wizard is pretty self-explainative and helps you to import your `Client public key`, export your `Watcher public key`, create a system daemon and start it immediately.
 
-Next step is going back to the Client's setup wizard, importing the `Watcher public key` and now you are ready to play.
+Last step is going back to the Client's setup wizard, importing the `Watcher public key` and now you are ready to play. :fist:
