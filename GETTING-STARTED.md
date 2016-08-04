@@ -5,7 +5,7 @@ __Trailbot Getting Started guide__
 + [Installing Trailbot Vault](#installing-trailbot-vault)
 + [Usage](#usage)
   + [Watching files and logs](#watching-files-and-logs)
-  + [Understanding events](#understanding-events)
+  + [Reading events](#reading-events)
   + [Adding smart policies](#adding-smart-policies)
 + [Usage in development mode](#usage-in-development-mode)
 
@@ -146,3 +146,36 @@ Last step is taking the `./trailbot_watcher.pub.asc` file containing the `Watche
 
 Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`. The installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md#installing-your-own-vault).
 
+## Usage
+
+##### Main view
+
+![Main view](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/main-view.png)
+
+### Watching files and logs
+
+Start watching a file by clicking on the (:heavy_plus_sign:) button in the left pane and then simply enter the absolute path of the file you want to watch. 
+
+![Start watching](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/start-watching.png)
+
+We recommend to watch :eyes: typical logfiles like `/var/log/syslog`, `/var/log/auth.log` or `/var/log/nginx/nginx_error.log`.
+
+:ghost: _You can even monitor files that do not exist yet, and get events when they are created._
+
+### Reading events
+
+Every time a watched file is modified, a new event appears in the file's event list.
+
+![Event](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/addition-event.png)
+
+The numbers under the date tell you how many lines where added and/or deleted at the time.
+
+Something like _"+3 -3"_ typically means that 3 lines were edited or replaced.
+
+When you click on one of the events on the list, you can see the [diff](https://en.wikipedia.org/wiki/Diff_utility) between previous and current version of the watched file.
+
+![Diff](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/addition-diff.png)
+
+The _"EOF"_ at the bottom represents the end of the file.
+
+### Adding Smart Policies
