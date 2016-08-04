@@ -3,7 +3,7 @@ __Trailbot Getting Started guide__
 + [Installing Trailbot Client](#installing-trailbot-client)
 + [Installing Trailbot Watcher](#installing-trailbot-watcher)
 + [Installing Trailbot Vault](#installing-trailbot-vault)
-  
++ 
 --
 
 ## Introduction
