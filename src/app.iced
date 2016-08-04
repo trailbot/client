@@ -13,8 +13,8 @@ createWindow = ->
     minWidth: 720
     minHeight: 500
     autoHideMenuBar: true
+    title: "Trailbot Client"
   win.loadURL """data:text/html,<webview id="wv" src="#{Config.vault}" preload="file://#{__dirname}/preload.js" style="position: fixed; top: 0; right: 0; bottom: 0; left: 0;"></webview><script>window.document.getElementById('wv').addEventListener('console-message', function(e) { console.log(e.message); });</script>"""
-#  win.openDevTools()
 
   win.on 'closed', () =>
     win = null
