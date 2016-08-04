@@ -108,9 +108,37 @@ Now simply run:
 npm run setup
 ```
 
-The setup wizard is pretty self-explainative and helps you to import your `Client public key`, export your `Watcher public key`, create a system daemon and start it immediately.
+The setup wizard is pretty self-explainative and helps you to import your `Client public key`, export your `Watcher public key`, create a system daemon and start it immediately:
 
-Last step is going back to the Client's setup wizard, importing the `Watcher public key` from clipboard or filesystem and now you are ready to play. :fist:
+Choose a name or press Enter for accepting the suggested name.
+
+![Watcher name](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/001.png)
+
+Write the route of the file where you put the `Client public key`.
+
+![Client key import](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/002.png)
+
+Here you can press Enter to use the "official" vault (`vault.trailbot.io:8443`).
+
+![Vault endpoint](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/003.png)
+
+Wait a couple of minutes while your Watcher keys are generated.
+
+![Keys generation](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/004.png)
+
+Choose a method for exporting the `Watcher public key`. Recommended option is __Write to filesystem__.
+
+![Choose exporting method](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/005.png)
+
+Press enter to simply write it into `./trailbot_watcher.pub.asc`.
+
+![Watcher key export](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/006.png)
+
+After a few seconds, Trailbot Watcher should be up and running. :tada:
+
+![Ready](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/007.png)
+
+Last step is taking the `./trailbot_watcher.pub.asc` file containing the `Watcher public key` and copying it back to your personal computer. Go back to the Client's setup wizard, import the `Watcher public key` and now you are ready to play. :muscle:
 
 ![Congratulations](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/006.png)
 
