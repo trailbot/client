@@ -154,6 +154,25 @@ Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in anoth
 
 ### Watching files and logs
 
+Start watching a file by clicking on the (:heavy_plus_sign:) button in the left pane and then simply enter the absolute path of the file you want to watch. 
+
+![Start watching](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/start-watching.png)
+
+We recommend to watch :eyes: typical logfiles like `/var/log/syslog`, `/var/log/auth.log` or `/var/log/nginx/nginx_error.log`.
+
+:ghost: _You can even monitor files that do not exist yet, and get events when they are created._
+
 ### Reading events
+
+Every time a watched file is modified, a new event appears in the file's event list.
+
+![Event](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/addition-event.png)
+
+The numbers under the date denote how many lines where added and/or deleted. "+1 -1" typically means that 1 line was edited or replaced.
+
+If you click on events, you can see the [diff](https://en.wikipedia.org/wiki/Diff_utility) between previous and current version of the watched file.
+
+![Diff](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/addition-diff.png)
+
 
 ### Adding Smart Policies
