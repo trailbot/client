@@ -53,6 +53,24 @@ trailbot-client
 
 The first time you run Trailbot Client, it presents a setup wizard that guides you through the process of setting up both the client and your first Trailbot Watcher.
 
+![Welcome screen](https://github.com/trailbot/vault/blob/master/dist/img/screens/001.png)
+
+Trailbot uses __end-to-end encryption__ to guarantee maximum privacy of all your data, so the first step will be setting a passphrase for your secure keypar.
+
+![PGP keypar generation](https://github.com/trailbot/vault/blob/master/dist/img/screens/002.png)
+
+The `Client public key` that you have just generated needs to be copied into your servers. In order to do so, the recommended option is to __export to filesystem__.
+
+![Public key export](https://github.com/trailbot/vault/blob/master/dist/img/screens/003.png)
+
+At this point, if this is the first time that you use Trailbot, please choose __"Not yet, please show me how"__.
+
+![Watcher configuration](https://github.com/trailbot/vault/blob/master/dist/img/screens/004.png)
+
+Now follow the steps described in the watcher or simply go through the [Installing Trailbot Watcher](#installing-trailbot-watcher) section in this same Getting Started guide.
+
+![Watcher setup](https://github.com/trailbot/vault/blob/master/dist/img/screens/005.png)
+
 ## Installing Trailbot Watcher
 
 :exclamation: __Before installing Trailbot Watcher in your server, you need to install Trailbot Client in your own computer.__
@@ -81,13 +99,20 @@ Installing Trailbot Watcher is quite easy:
 sudo su
 git clone https://github.com/trailbot/watcher
 cd watcher
-npm install -g
+npm install
+```
+Now take the `Client public key` that you exported from the Client in your computer and copy it into your server using `scp`, `rsync`, `ftp` or similar. (Another option is opening a text editor in your server and directly pasting it).
+
+Now simply run:
+```
 npm run setup
 ```
 
 The setup wizard is pretty self-explainative and helps you to import your `Client public key`, export your `Watcher public key`, create a system daemon and start it immediately.
 
-Last step is going back to the Client's setup wizard, importing the `Watcher public key` and now you are ready to play. :fist:
+Last step is going back to the Client's setup wizard, importing the `Watcher public key` from clipboard or filesystem and now you are ready to play. :fist:
+
+![Congratulations](https://github.com/trailbot/vault/blob/master/dist/img/screens/006.png)
 
 ## Installing Trailbot Vault
 
