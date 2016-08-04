@@ -3,7 +3,10 @@ __Trailbot Getting Started guide__
 + [Installing Trailbot Client](#installing-trailbot-client)
 + [Installing Trailbot Watcher](#installing-trailbot-watcher)
 + [Installing Trailbot Vault](#installing-trailbot-vault)
-+ 
++ [Usage](#usage)
+  + [Watching files and logs](#watching-files-and-logs)
+  + [Understanding events](#understanding-events)
+  + [Adding smart policies](#adding-smart-policies)
 --
 
 ## Introduction
