@@ -7,6 +7,7 @@ __Trailbot Getting Started guide__
   + [Watching files and logs](#watching-files-and-logs)
   + [Understanding events](#understanding-events)
   + [Adding smart policies](#adding-smart-policies)
+
 --
 
 ## Introduction
