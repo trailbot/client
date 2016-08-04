@@ -53,23 +53,23 @@ trailbot-client
 
 The first time you run Trailbot Client, it presents a setup wizard that guides you through the process of setting up both the client and your first Trailbot Watcher.
 
-![Welcome screen](https://github.com/trailbot/vault/blob/master/dist/img/screens/001.png)
+![Welcome screen](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/001.png)
 
 Trailbot uses __end-to-end encryption__ to guarantee maximum privacy of all your data, so the first step will be setting a passphrase for your secure keypar.
 
-![PGP keypar generation](https://github.com/trailbot/vault/blob/master/dist/img/screens/002.png)
+![PGP keypar generation](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/002.png)
 
 The `Client public key` that you have just generated needs to be copied into your servers. In order to do so, the recommended option is to __export to filesystem__.
 
-![Public key export](https://github.com/trailbot/vault/blob/master/dist/img/screens/003.png)
+![Public key export](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/003.png)
 
 At this point, if this is the first time that you use Trailbot, please choose __"Not yet, please show me how"__.
 
-![Watcher configuration](https://github.com/trailbot/vault/blob/master/dist/img/screens/004.png)
+![Watcher configuration](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/004.png)
 
 Now follow the steps described in the watcher or simply go through the [Installing Trailbot Watcher](#installing-trailbot-watcher) section in this same Getting Started guide.
 
-![Watcher setup](https://github.com/trailbot/vault/blob/master/dist/img/screens/005.png)
+![Watcher setup](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/005.png)
 
 ## Installing Trailbot Watcher
 
@@ -112,7 +112,7 @@ The setup wizard is pretty self-explainative and helps you to import your `Clien
 
 Last step is going back to the Client's setup wizard, importing the `Watcher public key` from clipboard or filesystem and now you are ready to play. :fist:
 
-![Congratulations](https://github.com/trailbot/vault/blob/master/dist/img/screens/006.png)
+![Congratulations](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/006.png)
 
 ## Installing Trailbot Vault
 
