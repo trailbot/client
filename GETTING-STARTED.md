@@ -5,7 +5,7 @@ __Trailbot Getting Started guide__
 + [Installing Trailbot Vault](#installing-trailbot-vault)
 + [Usage](#usage)
   + [Watching files and logs](#watching-files-and-logs)
-  + [Understanding events](#understanding-events)
+  + [Reading events](#reading-events)
   + [Adding smart policies](#adding-smart-policies)
 + [Usage in development mode](#usage-in-development-mode)
 
@@ -146,3 +146,14 @@ Last step is taking the `./trailbot_watcher.pub.asc` file containing the `Watche
 
 Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`. The installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md#installing-your-own-vault).
 
+## Usage
+
+##### Main view
+
+![Main view](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/main-view.png)
+
+### Watching files and logs
+
+### Reading events
+
+### Adding Smart Policies
