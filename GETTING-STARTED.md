@@ -16,7 +16,7 @@ The installation of Trailbot Client __MUST__ be done before starting to install 
 
 Then, when you run Trailbot Client for the first time, it guides you through the process of installing and setting up Trailbot watcher.
 
-Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [https://stampery.com](Stampery), which is available at `vault.trailbot.io:8443`.
+Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`.
 
 ## Installing Trailbot Client
 
@@ -82,3 +82,10 @@ npm run setup
 The setup wizard is pretty self-explainative and helps you to import your `Client public key`, export your `Watcher public key`, create a system daemon and start it immediately.
 
 Last step is going back to the Client's setup wizard, importing the `Watcher public key` and now you are ready to play. :fist:
+
+## Installing Trailbot Vault
+
+Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`.
+
+Its installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md).
+
