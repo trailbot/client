@@ -2,7 +2,17 @@
   "name": "trailbot-client",
   "version": "0.1.1",
   "description": "TrailBot tracks files and logs in your server and triggers smart policies upon unwanted modification.",
-  "keywords": ["siem", "sem", "monitor", "watch", "logs", "trailbot", "audit trail", "integrity", "blockchain"],
+  "keywords": [
+    "siem",
+    "sem",
+    "monitor",
+    "watch",
+    "logs",
+    "trailbot",
+    "audit trail",
+    "integrity",
+    "blockchain"
+  ],
   "repository": "https://github.com/trailbot/client",
   "homepage": "https://trailbot.io",
   "license": "MIT",
@@ -13,6 +23,7 @@
     "iced-coffee-script": "^108.0.11",
     "ipc": "0.0.1",
     "mkdirp": "^0.5.1",
+    "request": "^2.74.0",
     "simple-git": "^1.41.0"
   },
   "devDependencies": {
