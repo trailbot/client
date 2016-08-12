@@ -31,4 +31,8 @@ We'd love for you to help us build Trailbot. If you'd like to be a contributor, 
 
 Check out our [FAQ at the wiki](https://github.com/trailbot/client/wiki/FAQ).
 
+# LICENSE
+
+[MIT](https://github.com/trailbot/client/blob/master/LICENSE)
+
 [<img style="width:100%;" src="https://raw.githubusercontent.com/trailbot/vault/master/dist/img/footer.png">](https://stampery.com)
