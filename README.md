@@ -2,7 +2,7 @@
 
 # [Trailbot](https://trailbot.io) Client <sup><sub><sup><sub>DEVELOPER PREVIEW</sub></sup></sub></sup>
 
-__Trailbot tracks files and logs in your servers__, triggers [__Smart Policies__](https://github.com/trailbot/client/wiki/Smart-Policies) upon __tampering__ and generates an __immutable audit trail__ of everything happening to them.
+__Trailbot tracks your server's logs and files__, triggers [__Smart Policies__](https://github.com/trailbot/client/wiki/Smart-Policies) upon potentially unwanted modifications and generates an __immutable audit trail__ of everything happening in the system.
 
 [Smart Policies](https://github.com/trailbot/client/wiki/Smart-Policies) are simple scripts that get called every time a tracked file changes. They trigger actions such as emailing someone, rolling files back or even shutting the system down. There are [plenty of them ready to use](https://github.com/trailbot/client/wiki/Smart-Policies#ready-to-use-policies), and you can even [create your own](https://github.com/trailbot/client/wiki/Smart-Policies).
 
@@ -30,5 +30,9 @@ We'd love for you to help us build Trailbot. If you'd like to be a contributor, 
 # FAQ
 
 Check out our [FAQ at the wiki](https://github.com/trailbot/client/wiki/FAQ).
+
+# LICENSE
+
+[MIT](https://github.com/trailbot/client/blob/master/LICENSE)
 
 [<img style="width:100%;" src="https://raw.githubusercontent.com/trailbot/vault/master/dist/img/footer.png">](https://stampery.com)
