@@ -15,13 +15,13 @@ __Trailbot Getting Started guide__
 
 The installation process of Trailbot comprises, in this order:
 + Installing [Trailbot Client](https://github.com/trailbot/client) in your computer.
-+ Installing [Trailbot Watcher](https://github.com/trailbot/watcher) in your servers.
++ Installing [Trailbot Watcher](https://github.com/trailbot/watcher) in your server/s.
 
 The installation of Trailbot Client __MUST__ be done before starting to install any Trailbot watcher.
 
-Then, when you run Trailbot Client for the first time, it guides you through the process of installing and setting up Trailbot watcher.
+Then, when you run Trailbot Client for the first time, it will guide you through the process of installing and setting up Trailbot watcher on your server/s.
 
-Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`.
+Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in a separate server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`.
 
 ## Installing Trailbot Client
 
@@ -50,7 +50,7 @@ trailbot-client
 
 ### Setting up
 
-The first time you run Trailbot Client, it presents a setup wizard that guides you through the process of setting up both the client and your first Trailbot Watcher.
+The first time you run Trailbot Client, it presents a setup wizard that guides you through the process of setting up both the client and your first Trailbot watcher.
 
 ![Welcome screen](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/001.png)
 
@@ -185,4 +185,4 @@ The _"EOF"_ at the bottom represents the end of the file.
 
 ## Installing Trailbot Vault
 
-Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is __OPTIONAL__—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`. The installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md#installing-your-own-vault).
+Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in a separate server is __OPTIONAL__—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`. The installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md#installing-your-own-vault).
