@@ -2,13 +2,12 @@ __Trailbot Getting Started guide__
 + [Introduction](#introduction)
 + [Installing Trailbot Client](#installing-trailbot-client)
 + [Installing Trailbot Watcher](#installing-trailbot-watcher)
-+ [Installing Trailbot Vault](#installing-trailbot-vault)
 + [Usage](#usage)
   + [Watching files and logs](#watching-files-and-logs)
   + [Reading events](#reading-events)
   + [Adding smart policies](#adding-smart-policies)
 + [Usage in development mode](#usage-in-development-mode)
-
++ [Installing Trailbot Vault](#installing-trailbot-vault)
 
 --
 
@@ -142,10 +141,6 @@ Last step is taking the `./trailbot_watcher.pub.asc` file containing the `Watche
 
 ![Congratulations](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/006.png)
 
-## Installing Trailbot Vault
-
-Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is optional—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`. The installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md#installing-your-own-vault).
-
 ## Usage
 
 ##### Main view
@@ -179,3 +174,15 @@ When you click on one of the events on the list, you can see the [diff](https://
 The _"EOF"_ at the bottom represents the end of the file.
 
 ### Adding Smart Policies
+
+![Add smart policy](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/smart-policies-menu.png)
+
+1. Select the file you want to add a Smart Policy to.
+2. Click on the (:heavy_plus_sign:) in the second left pane, right next to the "Smart Policies" header.
+3. Copy the Git HTTPS URL for the Smart Policy you want to add, and paste it where asked.
+4. Fill in all the policy's parameterization fields and simply click on "Add policy [...]". Voilà!
+
+
+## Installing Trailbot Vault
+
+Installing your own [Trailbot Vault](https://github.com/trailbot/vault) in another server is __OPTIONAL__—you can use the "official" vault instance run by [Stampery](https://stampery.com), which is available at `vault.trailbot.io:8443`. The installation process is covered in [its own README](https://github.com/trailbot/vault/blob/master/README.md#installing-your-own-vault).
