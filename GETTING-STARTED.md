@@ -88,7 +88,7 @@ The watcher has been designed and optimized for usage in `GNU/Linux`. It should 
 + Make sure that version `5.0.0` or greater of `nodejs` is installed in your computer. Recommended version is `6.0.0` or greater. Easiest way to install `nodejs` is:
 ```
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install -y nodejs || sudo yum install nodejs npm || sudo pacman -S nodejs npm
+sudo apt-get install -y nodejs || sudo yum install nodejs npm gcc gcc-c++ make || sudo pacman -S nodejs npm base-devel
 ```
 
 ### Installation
