@@ -15,7 +15,7 @@ Trailbot has three components:
 
 Current security solutions are based on an obsolete paradigm: building walls and fences. Companies advertise their overcomplicated perimeter security systems as if they were impenetrable. But nevertheless we hear everyday about __cyber security breaches__ at even the largest corporations.
 
-In any case walls and fences will not protect you at all from internal breaches and __insider threats__. Furthermore, most data resides nowadays in the cloud, where walls, borders and fences fade and blur.
+In any case walls and fences will not protect you at all from internal breaches and __insider threats__. Furthermore, most data resides nowadays in the cloud, where walls, borders and fences fade and blur. It is not a matter of “if” but “when” the perimeter will get breached.
 
 With Trailbot you can rest assured of the __integrity of your data__, being it a system log or any other important file. It doesn't matter if an outsider got access to your systems or an insider decided to go rogue—__you are now in control__.
 
