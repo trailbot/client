@@ -2,7 +2,7 @@
 
 # [Trailbot](https://trailbot.io) Client <sup><sub><sup><sub>DEVELOPER PREVIEW</sub></sup></sub></sup>
 
-__Trailbot tracks your server's logs and files__, triggers [__Smart Policies__](https://github.com/trailbot/client/wiki/Smart-Policies) upon potentially unwanted modifications and generates an __tamper-proof audit trail__ of everything happening in the system.
+__Trailbot tracks your server's logs and files__, triggers [__Smart Policies__](https://github.com/trailbot/client/wiki/Smart-Policies) upon potentially unwanted modifications and generates a __tamper-proof audit trail__ of everything happening in the system.
 
 [Smart Policies](https://github.com/trailbot/client/wiki/Smart-Policies) are simple scripts that get called every time a tracked file changes. They trigger actions such as emailing someone, rolling files back to a previous state or even shutting the system down. There are [plenty of them ready to use](https://github.com/trailbot/client/wiki/Smart-Policies#ready-to-use-policies), and you can even [create your own](https://github.com/trailbot/client/wiki/Smart-Policies).
 
