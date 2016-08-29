@@ -125,15 +125,11 @@ Wait a couple of minutes while your Watcher keys are generated.
 
 ![Keys generation](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/004.png)
 
-Choose a method for exporting the `Watcher public key`. Recommended option is __Write to filesystem__.
+The watcher will generate a biometric sentence consisting of 8 words that will be required by Trailbot Client.
 
-![Choose exporting method](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/005.png)
+![Watcher exchange](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/006.png)
 
-Press enter to simply write it into `./trailbot_watcher.pub.asc`.
-
-![Watcher key export](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/006.png)
-
-After a few seconds, Trailbot Watcher should be up and running. :tada:
+After Trailbot Client validates the sentence, Trailbot Watcher should be up and running. :tada:
 
 ![Ready](https://github.com/trailbot/vault/blob/master/dist/img/screens/watcher/007.png)
 
@@ -149,7 +145,7 @@ Last step is taking the `./trailbot_watcher.pub.asc` file containing the `Watche
 
 ### Watching files and logs
 
-Start watching a file by clicking on the (:heavy_plus_sign:) button in the left pane and then simply enter the absolute path of the file you want to watch. 
+Start watching a file by clicking on the (:heavy_plus_sign:) button in the left pane and then simply enter the absolute path of the file you want to watch.
 
 ![Start watching](https://github.com/trailbot/vault/blob/master/dist/img/screens/client/start-watching.png)
 
