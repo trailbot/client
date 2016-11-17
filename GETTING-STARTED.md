@@ -86,10 +86,7 @@ The watcher has been designed and optimized for usage in `GNU/Linux`. It should 
 
 + Remember to install Trailbot Client in your own computer and go through its setup wizard to generate its keypar and export it.
 + Make sure that version `5.0.0` or greater of `nodejs` is installed in your computer. Recommended version is `6.0.0` or greater. Easiest way to install `nodejs` is:
-#### Arch
-```
-pacman -S nodejs npm
-```
+
 ##### Debian and Ubuntu based Linux distributions
 ```
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
@@ -99,6 +96,10 @@ sudo apt-get install -y nodejs
 ```
 curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 sudo yum -y install nodejs
+```
+#### Arch
+```
+pacman -S nodejs npm
 ```
 
 ### Installation
